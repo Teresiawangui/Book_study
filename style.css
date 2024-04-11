@@ -12,7 +12,7 @@
 .image3{
   margin: 5%;
   width: 500px;
-  height: 400px;
+  height: 500px;
   border: solid 2px;
   border-radius: 36%;
 }
@@ -35,6 +35,8 @@ body{
   margin-right: 20%;
   gap: 5%;
   display: flex;
+  text-decoration: none;
+  color: black;
 }
 .footer{
   width: 50px;
@@ -49,6 +51,8 @@ body{
 .button{
 border: solid 1px;
 border-radius: 20%;
+color: beige;
+background-color: rgb(174, 174, 224);
 }
 @media only screen and (min-width: 280px) and (max-width: 768px) {
   .images{
@@ -87,6 +91,7 @@ body{
   margin-right: 20%;
   gap: 5%;
   display: flex;
+ 
 }
 .footer{
   width: 50px;
