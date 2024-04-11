@@ -50,4 +50,58 @@ body{
 border: solid 1px;
 border-radius: 20%;
 }
+@media only screen and (max-width: 768px) {
+  .images{
+    width: 30px;
+    height: 30px;
+}
+.image2{
+   
+    border: solid 2px;
+    border-radius: 36%;
+    width: 550px;
+    height: 550px;
+}
+.image3{
+  margin: 5%;
+  width: 500px;
+  height: 500px;
+  border: solid 2px;
+  border-radius: 36%;
+}
+#container{
+  display: flex;
+  gap: 5%;
+background-color: antiquewhite;
+justify-content: space-between;
+margin-left: 20%;
+margin-right: 20%;
+
+}
+body{
+
+  margin-top: 5%;
+  font-size: larger;
+}
+.navbar{
+  margin-left: 20%;
+  margin-right: 20%;
+  gap: 5%;
+  display: flex;
+}
+.footer{
+  width: 50px;
+  height: 50px;
+  gap: 5%;
+  margin-left: 20%;
+}
+.context{
+  text-align: center;
+  font-size:small;
+}
+.button{
+border: solid 1px;
+border-radius: 20%;
+}
+}
       
