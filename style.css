@@ -7,103 +7,309 @@
     height: 550px;
 }
 .image3{
-  margin: 5%;
-  width: 500px;
-  height: 500px;
+ 
+  width: 550px;
+  height: 550px;
   border: solid 2px;
-  border-radius: 36%;
+  border-radius: 50%;
+  background-color: rgb(235, 189, 149);
+  padding-right: 2%;
+  margin-top: 10%;
 }
 #container{
   display: flex;
-  gap: 5%;
-background-color: antiquewhite;
-justify-content: space-between;
-margin-left: 20%;
-margin-right: 20%;
+ gap: 5%;
+background-color: rgb(248, 247, 245);
+margin: 5%;
+height: 700px;
+
+
 
 }
 body{
-
-  margin-top: 5%;
-  font-size: larger;
+font-size: x-large;
+background-color: rgb(207, 207, 250);
 }
 .navbar{
-  margin-left: 20%;
-  margin-right: 20%;
-  gap: 5%;
+margin-bottom: 5%;
+margin-left: 5%;
+margin-top: 2%;
+  gap: 8%;
   display: flex;
   text-decoration: none;
   color: black;
 }
-.footer{
-  width: 50px;
-  height: 50px;
-  gap: 5%;
-  margin-left: 20%;
+.amazon{
+  width: 90px;
+  height: 70px;
+  padding-left: 7%;
+  margin-top: 0%;
+
+
+ 
 }
 .context{
   text-align: center;
   font-size: larger;
+  margin-top: 0%;
 }
 .button{
 border: solid 1px;
-border-radius: 20%;
-color: beige;
-background-color: rgb(174, 174, 224);
+border-radius: 5%;
+height: 3vh;
+color:white;
+background-color: rgb(103, 103, 235);
+
 }
-@media only screen and (max-width: 768px)  {
+a{
+  text-decoration-color: None;
+  color: black;
+}
+.button2{
+  width: 300px;
+  height: 50px;
+  border-radius: 10%;
+}
+.content{
+ 
+  padding-left: 5%;
+}
+@media only screen and (min-width: 280px) and (max-width: 460px) {
   .images{
-    width: 30px;
-    height: 30px;
-    
+    width: 28px;
+   
 }
 .image2{
-   
-   
-   
+    width: 280px;
+ 
 }
 .image3{
-width: 200px;
-height: 200px;
  
- 
+  width: 280px;
+  height: 280px;
+ margin-left: 4%;
+  border: solid 2px;
+  border-radius: 50%;
+  background-color: rgb(235, 189, 149);
+
+
 }
 #container{
-  display: flex;
-  flex-wrap: wrap;
-  gap: 5%;
-background-color: antiquewhite;
+  display: grid;
+ gap: 5%;
+background-color: rgb(248, 247, 245);
+height: 800px;
 font-size: x-small;
+width: 380px;
+
+
 
 
 
 }
 body{
+font-size: small;
+background-color: rgb(207, 207, 250);
 
-
-  font-size: x-small;
-  overflow-x: hidden;
 }
 .navbar{
-  gap: 5%;
- overflow-x: hidden;
-  font-size: x-small; 
+
+  gap: 2%;
+  display: grid;
+  text-decoration: none;
+  color: black;
+  margin-bottom: 15%;
+}
+.amazon{
+  width: 40px;
+  height: 40px;
+ padding-left: 7%;
+  margin-top: 19%;
+ 
+
+
  
 }
-.footer{
-gap: 2%;
-  overflow-x: hidden;
-  font-size: x-small;
-
-}
 .context{
-  font-size: x-small;
-  overflow-x: hidden;
+  text-align: center;
+  font-size: small;
+  margin-top: 0%;
 }
 .button{
 border: solid 1px;
-border-radius: 20%;
-color: rgb(198, 198, 237);
+border-radius: 5%;
+color:white;
+background-color: rgb(103, 103, 235);
+width: 100px;
+
+}
+a{
+  text-decoration-color: None;
+  color: black;
+}
+.button2{
+  width: 100px;
+
+  border-radius: 10%;
+}
+.content{
+ 
+  margin-top: 5%;
+}}
+@media only screen and (min-width: 461px) and (max-width: 768px) {
+  .images{
+    width: 30px;
+   
+}
+.image2{
+    width: 550px;
+   
+}
+.image3{
+ 
+  width: 330px;
+  height: 330px;
+margin-left: 4%;
+  border: solid 2px;
+  border-radius: 50%;
+  background-color: rgb(235, 189, 149);
+  
+}
+#container{
+  display: grid;
+ gap: 5%;
+background-color: rgb(248, 247, 245);
+
+height: 800px;
+
+
+
+}
+body{
+font-size: small;
+background-color: rgb(207, 207, 250);
+}
+.navbar{
+
+  gap: 4%;
+  display: grid;
+  text-decoration: none;
+  color: black;
+  margin-bottom: 5%;
+}
+.amazon{
+  width: 40px;
+  height: 40px;
+  margin-top: 5%;
+ 
+
+ 
+}
+.context{
+  
+  font-size: small;
+ 
+}
+.button{
+border: solid 1px;
+border-radius: 5%;
+
+color:white;
+background-color: rgb(103, 103, 235);
+
+}
+a{
+  text-decoration-color: None;
+  color: black;
+}
+.button2{
+  width: 300px;
+ 
+  border-radius: 10%;
+}
+.content{
+ 
+ 
 }
 }
-      
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+  .images{
+    width: 30px;
+   
+  
+}
+.image2{
+    width: 550px;
+   
+}
+.image3{
+ 
+  width: 350px;
+  height: 350px;
+ 
+  border: solid 2px;
+  border-radius: 50%;
+  background-color: rgb(235, 189, 149);
+  
+}
+#container{
+  display: grid;
+ gap: 5%;
+background-color: rgb(248, 247, 245);
+height: 850px;
+
+
+
+
+
+}
+body{
+font-size: small;
+background-color: rgb(207, 207, 250);
+}
+.navbar{
+
+  gap: 8%;
+  display: grid;
+  text-decoration: none;
+  color: black;
+}
+.amazon{
+  width: 50px;
+  margin-top: 5%;
+ 
+  
+  
+
+
+ 
+}
+.context{
+  text-align: center;
+  font-size: small;
+  
+
+}
+.button{
+border: solid 1px;
+border-radius: 5%;
+width: 100px;
+color:white;
+background-color: rgb(103, 103, 235);
+
+}
+a{
+  text-decoration-color: None;
+  color: black;
+}
+.button2{
+  width: 300px;
+  
+  border-radius: 10%;
+}
+.content{
+ 
+ margin-top: 5%;
+} 
+}
+ 
